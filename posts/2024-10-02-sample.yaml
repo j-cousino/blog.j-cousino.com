@@ -1,0 +1,6 @@
+title: Sample Article
+author: Article Author
+contents:
+  This is the actual content of the article written in commonmark markdown.
+  we embed everything in a yaml file. This allows us to easily extract the
+  front matter without extra code.
