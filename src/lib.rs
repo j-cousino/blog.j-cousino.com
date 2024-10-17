@@ -42,7 +42,7 @@ impl Post {
             title,
             author,
             contents,
-        } = serde_yaml::from_str(&content)?;
+        } = serde_yml::from_str(&content)?;
 
         // convert the md formated data in contents to html
         let options = comrak::Options {

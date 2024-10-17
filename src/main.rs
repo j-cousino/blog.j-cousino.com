@@ -15,7 +15,7 @@ pub struct AppOptions {
 
 fn main() -> Result<()>{
     let options_content = std::fs::read_to_string(PathBuf::from("./bloggen.yaml"))?;
-    let options: AppOptions = serde_yaml::from_str(&options_content)?;
+    let options: AppOptions = serde_yml::from_str(&options_content)?;
 
     let mut posts: Vec<bloggen::Post> = Vec::new();
 

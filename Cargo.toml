@@ -5,6 +5,6 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.89"
-comrak = "0.28.0"
+comrak = "0.29.0"
 serde = { version = "1.0", features = ["derive"] }
-serde_yaml = "0.9.34"
+serde_yml = "0.0"
